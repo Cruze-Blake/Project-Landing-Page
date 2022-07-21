@@ -1,0 +1,103 @@
+* {
+  background-color: hsl(0, 0%, 96%);
+}
+.header {
+  background-color: hsl(0, 0%, 96%);
+  margin-bottom: 10px;
+}
+.logo {
+  border-radius: 7px;
+
+  width: 150px;
+}
+.nav-links {
+  float: right;
+  margin: 53px 10px;
+  padding: 5px;
+}
+a {
+  text-decoration: none;
+  color: hsl(162, 100%, 43%);
+  padding: 10px;
+}
+h2,
+p {
+  text-align: center;
+  color: hsl(216, 51%, 21%);
+}
+p {
+  color: hsl(162, 100%, 43%);
+}
+.display {
+  width: 300px;
+  border-radius: 8px;
+  background-color: hsl(0, 0%, 96%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.display-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+button {
+  border-radius: 7px;
+  font-size: 16px;
+  color: hsl(0, 0%, 96%);
+  background: hsl(216, 51%, 21%);
+  border: 2px solid hsl(162, 100%, 43%);
+  transition-duration: 0.5s;
+}
+button:hover {
+  color: hsl(162, 100%, 43%);
+  background-color: hsl(0, 0%, 96%);
+}
+.links-flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+/*--- Section TWO ---*/
+
+h3 {
+  text-align: center;
+  color: hsl(216, 51%, 21%);
+  background-color: hsl(0, 0%, 96%);
+}
+.locations {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: hsl(0, 0%, 96%);
+}
+.locations-flex {
+  width: 250px;
+  height: 150px;
+  border-radius: 7px;
+  background-color: hsl(0, 0%, 96%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+/*--- CALL TO ACTION --*/
+
+h4,
+h6 {
+  text-align: center;
+  font-weight: 700;
+  color: hsl(216, 51%, 21%);
+}
+h5 {
+  text-align: center;
+  font-weight: 700;
+  color: hsl(162, 100%, 43%);
+}
+footer {
+  background-color: hsl(216, 51%, 21%);
+  width: 100%;
+}
